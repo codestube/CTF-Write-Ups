@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: ./frontend/
+    restart: unless-stopped
+    environment:
+      FLAG: PUCTF25{fake_flag_do_not_submit}
+      WHITELIST_API_URL: http://api
+    ports:
+      - 80:80
+    networks:
+      - internal
+  api:
+    build: ./api/
+    restart: unless-stopped
+    networks:
+      - internal
+
+networks:
+  internal:

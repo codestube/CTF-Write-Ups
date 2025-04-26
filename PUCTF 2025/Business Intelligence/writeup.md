@@ -1,4 +1,3 @@
-
 # Business Intelligence - Write up
 Difficulty: ★★★★★☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
 ![chall-ss](media/Business%20Intelligence%20Info.png)
@@ -36,6 +35,7 @@ I right clicked Dashboard &rarr; View Code..
 ![password](media/password.png)  
 A password? Of all places you could've put one, it is in the one blocking the macro script?  
 Looks like it's something important <sub>heheh- *cough*</sub>
+
 ## My Solution:
 Since the VBAProject is locked behind password, we can:
 1. Look for password inside the Excel Spreadsheet, or;

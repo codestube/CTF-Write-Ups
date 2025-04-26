@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Hong Kong Weather</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Today's Hong Kong Weather</h1>
+      <h2 id="error" class="error"></h2>
+      <div id="weather-info">
+        <p id="weather-location"></p>
+        <p id="description"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+      </div>
+      <button onclick="getWeather();">Get Latest Weather Information</button>
+    </div>
+    <script>
+      const API_ENDPOINT = '/api/weather';
+      const WHITELIST_API_URL = encodeURIComponent('{{ WHITELIST_API_URL }}');
+      const ERROR_MESSAGE_ELEMENT = document.getElementById('error');
+
+      async function getWeather() {
+        ERROR_MESSAGE_ELEMENT.textContent = '';
+        
+        const apiJsonData = await fetch(`${API_ENDPOINT}?url=${WHITELIST_API_URL}`)
+          .then(response => response.json());
+        
+        if (apiJsonData['message']) {
+          ERROR_MESSAGE_ELEMENT.textContent = `Error: ${apiJsonData["message"]}`;
+          return;
+        }
+        
+        document.getElementById('weather-location').textContent = `Location: ${apiJsonData["location"]}`;
+        document.getElementById('description').textContent = `Description: ${apiJsonData["description"]}`;
+        document.getElementById('temperature').textContent = `Temperature: ${apiJsonData["temperature"]}°C`;
+        document.getElementById('humidity').textContent = `Humidity: ${apiJsonData["humidity"]}%`;
+      }
+    </script>
+  </body>
+</html>
