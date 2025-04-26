@@ -122,7 +122,9 @@ End Sub
 This script basically listens for the prompt of password when trying to open chal.xlsm's VBAProject. When Office pop up a password dialog `DialogBoxParamA`, it hooks the function, intercept the request and return 1 (which means success), cracking open the VBAProject.  
   
 So I opened a new Excel spreadsheet (Ctrl + N) &rarr; Went to view code &rarr; Inserted a new module &rarr; Pasted this code &rarr; Run it, and voila!  
-![Showcase.mp4](media/Showcase.mp4)  
+
+https://youtu.be/q33-s0BQQaI  
+
 And now, we have the code for the macro!
 <details>
 <summary>Click to toggle code</summary>
@@ -288,13 +290,13 @@ connectionString = "ODBC;DRIVER=SQL Server;SERVER=chal.polyuctf.com,51337;DATABA
 Looks like we hit the jackpot. Now all we have to do is to access this SQL database server locally.  
 I'll be using Azure Data Studio, but feel free to use any Database Management Tool you'd prefer.  
 I'll click on `New connection`, select `SQL Login` and input the details given from the code line.  
-![connection](media/connection.jpg)  
+![connection](media/connection.png)  
 Now when we connect, we should see 5 tables, with 1 of it being special. `secret`  
-![tables](media/tables.jpg) 
+![tables](media/tables.png) 
 So, we'll just make a simple SQL query,  
 `select * from secret`  
 Ladies and gentlemen, we got 'em.  
-![flag](media/flag.jpg)  
+![flag](media/flag.png)  
 The flag is `PUCTF25{H4rD_C0d3D_CR3d3Nt14l5_Mu5T_h4v3_B33n_Th3_1Nt3rN_f8060c2a1d041f414eff8a60a5db1846}`
 ## Conclusion
 This was really fun to say the least, realizing that VBA module can be so easily broken into with a script to copy and paste made me more aware that many things are simply a google search away, and I'm glad that all my time learning SQL query didn't go to waste after all. This was also my very first >300 solve on not just this CTF, but on my first ever CTF participated. So I'm really glad that I actually got the flag and happy that I can solve puzzles from online CTFs. A huge confidence boost to say the least. :>
