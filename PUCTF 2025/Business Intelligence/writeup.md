@@ -14,7 +14,8 @@ Difficulty: ★★★★★☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 ## Write up:
 When I first open this excel spreadsheet, I see <b>stonks</b>. <sub>ba dum tss</sub>  
 ![dashboard-ui](media/dashboard-1.png)  
-I looked around the spreadsheet, moving pictures, saw these fake flags, some of which were kinda fun.
+I looked around the spreadsheet, moving pictures, saw these fake flags, some of which were kinda fun.  
+![data-ui](media/data.png)
 * PUCTF25{ch4tgpt_c0mpet1t0r}
 * PUCTF25{d33p_s33k_w4s_h3r3}
 * PUCTF25{bruteforce_me_daddy}PUCTF25{THIS_IS_A_FAKE_FLAG} << this is just weird..
