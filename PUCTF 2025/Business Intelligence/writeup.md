@@ -1,6 +1,6 @@
 
 # Business Intelligence - Write up
-Difficulty: ★★★☆☆☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
+Difficulty: ★★★★★☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
 ![chall-ss](media/Business%20Intelligence%20Info.png)
 ## Details:
 * Author: Jomapisa
@@ -123,7 +123,7 @@ This script basically listens for the prompt of password when trying to open cha
   
 So I opened a new Excel spreadsheet (Ctrl + N) &rarr; Went to view code &rarr; Inserted a new module &rarr; Pasted this code &rarr; Run it, and voila!  
 
-https://youtu.be/q33-s0BQQaI  
+https://github.com/user-attachments/assets/c6ff2c00-11df-44ee-b149-b57c622b36b8  
 
 And now, we have the code for the macro!
 <details>
