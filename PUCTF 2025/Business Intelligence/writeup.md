@@ -12,7 +12,7 @@ Difficulty: ★★★☆☆☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&
 >[chal.xlsm](files/chal.xlsm)
 
 ## Write up:
-When I first open this excel spreadsheet, I see <b>stonks</b>. <small>ba dum tss</small>  
+When I first open this excel spreadsheet, I see <b>stonks</b>. <sub>ba dum tss</sub>  
 ![dashboard-ui](media/dashboard-1.png)  
 I looked around the spreadsheet, moving pictures, saw these fake flags, some of which were kinda fun.
 * PUCTF25{ch4tgpt_c0mpet1t0r}
@@ -34,7 +34,7 @@ However, Excel still blocked my action. So I REALLY wanted to know what this mac
 I right clicked Dashboard &rarr; View Code..  
 ![password](media/password.png)  
 A password? Of all places you could've put one, it is in the one blocking the macro script?  
-Looks like it's something important <small>heheh- *cough*</small>
+Looks like it's something important <sub>heheh- *cough*</sub>
 ## My Solution:
 Since the VBAProject is locked behind password, we can:
 1. Look for password inside the Excel Spreadsheet, or;
@@ -280,7 +280,7 @@ ErrorHandler:
 End Sub
 ```
 </details>  
-Well, hello. You. <small>(Sorry I was watching the new season of You on netflix.) </small> <br>
+Well, hello. You. <sub>(Sorry I was watching the new season of You on netflix.) </sub> <br>
 
 ```
 connectionString = "ODBC;DRIVER=SQL Server;SERVER=chal.polyuctf.com,51337;DATABASE=NuttyERP;UID=Nutty_Executive;PWD=NuttExec03172025;"
@@ -310,6 +310,6 @@ This was really fun to say the least, realizing that VBA module can be so easily
  
  
   
-<small>
+<sub>
 	Tags: Excel, VBA, password, SQL, Database, Spreadsheet, PUCTF, 2025
-</small>
+</sub>
