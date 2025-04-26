@@ -1,6 +1,6 @@
 
 # Business Intelligence - Write up
-Difficulty: ★★★☆☆☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
+Difficulty: ★★★☆☆☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
 ![chall-ss](media/Business%20Intelligence%20Info.png)
 ## Details:
 * Author: Jomapisa
