@@ -306,7 +306,7 @@ This was really fun to say the least, realizing that VBA module can be so easily
 - NuttyShell (The Organizers)
 - Jomapisa (The author)
 - Google (cuz google.)
-- Teammates (For participating with me)  
+- owo, Bill, Karim (My teammates) 
 
 <br>
 <sub>
