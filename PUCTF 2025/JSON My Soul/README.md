@@ -174,7 +174,10 @@ Now, the URL request **MUST** start with ``http://api`` (`if not url.startswith(
 So, I'll add a `?url=http://api` at the end of my payload, and see if it still returns weather information.  
   
 ![weather-still](media/url=http.png)  
-Now all I have to do is access the localhost of the API url, by adding `@127.0.0.1` after ``http://api``.  
+Now all I have to do is access the localhost of the API URL.  
+Since it only check the start of the url (``if not url.startswith(WHITELIST_API_URL)``), by adding `@127.0.0.1` after ``http://api``, this would still return the weather information as it is still a valid API URL.  
+[`chal.polyuctf.com:41342/api/weather?url=http://api@127.0.0.1`](chal.polyuctf.com:41342/api/weather?url=http://api@127.0.0.1)
+
 Then to get the flag, simply get it the same way I did above. `/flag`  
 I'll skip the testing part and just go straight to querying the flag as "localhost" with a `?` at the end.  
 Therefore the final payload should be [`chal.polyuctf.com:41342/api/weather?url=http://api@127.0.0.1/flag?`](chal.polyuctf.com:41342/api/weather?url=http://api@127.0.0.1/flag?).  
