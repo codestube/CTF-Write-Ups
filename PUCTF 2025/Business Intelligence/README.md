@@ -307,12 +307,8 @@ This was really fun to say the least, realizing that VBA module can be so easily
 - Jomapisa (The author)
 - Google (cuz google.)
 - Teammates (For participating with me)  
- 
- 
- 
- 
- 
-  
+
+<br>
 <sub>
 	Tags: Excel, VBA, password, SQL, Database, Spreadsheet, PUCTF, 2025
 </sub>
