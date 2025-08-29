@@ -28,7 +28,8 @@ When the image is opened on my browser, it shows the image dimensions as well. I
 
 Surely there is something in that hidden in that `1 x 963` pixel line right? Upon my ***microscopic*** inspections, nothing seems to be out of the ordinary, until I tried using the eyedropper (color select) tools on my image editing software (Here I am using [Aseprite](https://www.aseprite.org/)). by selecting it pixel to pixel, I can check if there are different colors that just looks similar.
 
-<video controls src="media/color-diff.mp4" title="color-diff"></video>
+https://github.com/user-attachments/assets/b184480b-4433-4fe9-8abb-4349131cf77d
+
 
 **Bingo!** We have found another "Off By One" reference :D
 
@@ -36,7 +37,8 @@ Seems like that top line's "white" color is off by 1b value in RGB.Let's try to 
 
 ## My Solution:
 First, I use bucket fill tool to fill all outer white colors with black (or any other colors) to better highlight the top line.
-<video controls src="media/deez-color.mp4" title="Title"></video>
+
+https://github.com/user-attachments/assets/ad308457-79fe-4f4f-9dc0-2dd95f76fe78
 
 Then, I select that single line of pixels and extract it.
 **![single-line](media/single-line.png)**
