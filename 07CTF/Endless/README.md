@@ -21,15 +21,15 @@ We were first told that this challenge would consist over 24 stage. So I'm gonna
 
 ### 1st Stage: AUTHOR
 With the keyword being author, the first query is the author themselves.  
-Looking up blackth0rns on google returns a X, Middle, TikTok, Pinterest account. The correct one was the [Pinterest](https://in.pinterest.com/rottenpetals00/_created) (I think). ![pinterest-img](media/image.png)  
+Looking up blackth0rns on google returns a X, Middle, TikTok, Pinterest account. The correct one was the [Pinterest](https://in.pinterest.com/rottenpetals00/_created) (I think). ![pinterest-img](media/pinterest.png)  
 
 ### 2nd Stage: Pinterest
 Looking at the only image that isnt wolf, it's a photo of a person standing towards sunlight. Reverse image searching it results in a [LinkedIn account](https://in.linkedin.com/in/shubhampundir?trk=public_post_feed-actor-image) with a guy wearing the same shirt called  Shubham Pundir.  
-![reverse-search-img](media/image-1.png)  
+![reverse-search-img](media/reverse-search.png)  
 
 ### 3rd Stage: LinkedIn
 In the LinkedIn account, you see a base64 string (it's not there anymore)
-![linkedin-img](media/image-2.png)
+![linkedin-img](media/linkedin.png)
 
 `WdB1jUEtLf9qsaF3SsUJC2RBuNhrUteDKUJPFMApRhasKWpRRCvAMe9OYzyRu3zgJbReuL9LuErcYy5WWPN0k1rgMXUrpOBINCvEefOLHeFHNgziTXGZrMpRFATQMdeyHUIrwsz5EWrbY2F2PjDckKDyNgGoHzb2M25Vr2IIOf8=`
 
@@ -55,11 +55,11 @@ Patient_Diamond2361
 
 ### 6th Stage: Reddit user
 So I tested each of them as reddit username, and [`Patient_Diamond2361`](https://www.reddit.com/user/Patient_Diamond2361/) returned a valid account. In their account, there is a [cryptic post](https://www.reddit.com/user/Patient_Diamond2361/comments/1mnm0kd/code/) about code, along a vanity url `/DNP83nftRTK/`  
-![reddit-img](media/image-3.png)
+![reddit-img](media/reddit3.png)
 
 ### 7th Stage: Instagram
 As the post said this is a code for a post, I assume it's referring to Instagram. So I went ahead to [that post](https://www.instagram.com/p/DNP83nftRTK/).  
-![instagram-img](media/image-4.png)
+![instagram-img](media/instagram4.png)
 
 ### 8th Stage: metamorphosis_manga
 At this point we were stuck, so asking the author, he send me this:
@@ -103,12 +103,12 @@ From this, I suspect we need to check the png using the catbox website. So first
 
 ### 11th Stage: Fixing QR
 In the middle of the QR code, you can 2 letters - tg, but we cant seem to scan it normally. This means this QR is broken in some way. Looking at the corners you see it's kinda "broken" with the circles not lining up. So we fixed the QR code just by "removing" the 3 corner squares, and rebuilding the smaller 3 corner circular squares, revealing a Telegram group invite.
-![fixed-telegram-qr-img](media/image-6.png)
+![fixed-qr-img](media/fixed-qr.png)
 > https://t.me/+lUPwRZ_lAd80YWE1
 
 ### 12th Stage: Telegram
 In the Telegram group, there is a message from TheOneWhoSlays:  
-![telegram-chat](media/image-5.png)  
+![telegram-img](media/telegram.png)  
 Due to my low attention span, I didn't read all of that, and only see keywords like YouTube, Cuco and phoenixsp7. So I search on youtube for a `Cuco phoenixsp7`, where the 1st result returned [this video](https://www.youtube.com/watch?v=Ka6boboYYXI&list=RDKa6boboYYXI&start_radio=1). 
 
 ### 13th Stage: YouTube
@@ -137,7 +137,7 @@ Clicking the restuarnt button and zooming closer to the given coords shows aroun
 
 ### 18th Stage: The restaurant
 From the restaurant on Google map, we see a review by a familiar person, PhoeNiXSP7! They have placed a review on this specific restaurant:  
-![review-png](media/image-7.png)  
+![review-png](media/review.png)  
 ```
 musashi_the_one: bro i couldn't understand it
 other: we studied AI together dude how can you not understand it.
@@ -200,7 +200,7 @@ Anyways! So I tried all different AI except for Gemini, but none of them had sim
 
 ### 24th Stage: Google Gemini
 Launching Gemini's website and generating [a share link](https://g.co/gemini/share/7c7a190ac879) to a random chat log, then replacing the random hash to the one from the ChatGPT chat log, resulting in [this chat](https://gemini.google.com/share/dc3bfae33610):  
-![gemini-chat-img](media/image-8.png)
+![gemini-img](media/gemini.png)
 
 ## My Solution:
 Visually saw that flag, copied it, and pasted in the corresponding challenge submission flag input box.
