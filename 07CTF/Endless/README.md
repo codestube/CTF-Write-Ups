@@ -21,7 +21,7 @@ We were first told that this challenge would consist over 24 stages. ~~So I'm go
 
 ### 1st Stage: AUTHOR
 With the keyword being author, the first query is the author themselves.  
-Looking up blackth0rns on Google returns a X, Middle, TikTok, all various social accounts, but after some trial and error, I decide to look further into their [Pinterest](https://in.pinterest.com/rottenpetals00/_created)(since nothing else was special enough).  
+Looking up blackth0rns on Google returns a X, Middle, TikTok, all various social accounts, but after some trial and error, I decide to look further into their [Pinterest](https://in.pinterest.com/rottenpetals00/_created) (since nothing else was special enough).  
 ![pinterest-img](media/pinterest.png)  
 
 ### 2nd Stage: Pinterest
