@@ -17,7 +17,7 @@ We were only given a description of `linus-r8000`. Reading the title `buhtig` I 
 [Click here for the Github Profile](https://www.github.com/linus-r8000)
 ![repo-img](media/repo.png)
 
-From there we can see there is a repositories from them called [`the-final-checkpoint`](https://github.com/linus-r8000/the-final-checkpoint), with a [README.md](https://github.com/linus-r8000/the-final-checkpoint/blob/main/README.md) and a [don't open this.jpeg](https://github.com/linus-r8000/the-final-checkpoint/blob/main/don't%20open%20this.jpeg).
+From there we can see there is a repository from them called [`the-final-checkpoint`](https://github.com/linus-r8000/the-final-checkpoint), with a [README.md](https://github.com/linus-r8000/the-final-checkpoint/blob/main/README.md) and a [don't open this.jpeg](https://github.com/linus-r8000/the-final-checkpoint/blob/main/don't%20open%20this.jpeg).
 
 However, it just looks like red herring as there doesn't seem like anything special. So I divert my attention to other parts of their Github.
 
