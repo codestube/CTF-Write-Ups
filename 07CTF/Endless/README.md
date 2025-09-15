@@ -5,7 +5,7 @@ Difficulty: ★★★★★★★★★☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 ## Details:
 - Author: blackth0rns
 - Category: OSINT
-- Score acquired: 498
+- Score acquired: 498 (5 solves)
 
 ## Description:
 > The keyword is "AUTHOR".
@@ -14,30 +14,32 @@ Difficulty: ★★★★★★★★★☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 
 ## Write up:
 <b>
-Fair warning: This is a longggggggg write-up of it, you should open a subway surfer clip on the side.
+Fair warning: This is a longggggggg write-up of the challenge, so you should definitely open a <a href="https://www.youtube.com/watch?v=vTfD20dbxho">Subway Surfer</a> or a <a href="https://www.youtube.com/watch?v=85z7jqGAGcc">Minecraft parkour</a> clip on the side.
 </b>
 
-We were first told that this challenge would consist over 24 stage. So I'm gonna write this quick then refine it later on.
+We were first told that this challenge would consist over 24 stages. ~~So I'm gonna write this quick then refine it later on.~~
 
 ### 1st Stage: AUTHOR
 With the keyword being author, the first query is the author themselves.  
-Looking up blackth0rns on google returns a X, Middle, TikTok, Pinterest account. The correct one was the [Pinterest](https://in.pinterest.com/rottenpetals00/_created) (I think). ![pinterest-img](media/pinterest.png)  
+Looking up blackth0rns on Google returns a X, Middle, TikTok, all various social accounts, but after some trial and error, I decide to look further into their [Pinterest](https://in.pinterest.com/rottenpetals00/_created)(since nothing else was special enough).  
+![pinterest-img](media/pinterest.png)  
 
 ### 2nd Stage: Pinterest
-Looking at the only image that isnt wolf, it's a photo of a person standing towards sunlight. Reverse image searching it results in a [LinkedIn account](https://in.linkedin.com/in/shubhampundir?trk=public_post_feed-actor-image) with a guy wearing the same shirt called  Shubham Pundir.  
+Looking at this Pinterest account, there are 4 created pins, and the only image that isnt wolf, is a photo of a person standing towards sunlight <sub>lowkey aura farming.</sub> Reverse image searching it results in a [LinkedIn account](https://in.linkedin.com/in/shubhampundir?trk=public_post_feed-actor-image) with a guy wearing the same shirt called  Shubham Pundir.  
 ![reverse-search-img](media/reverse-search.png)  
 
 ### 3rd Stage: LinkedIn
-In the LinkedIn account, you see a base64 string (it's not there anymore)
-![linkedin-img](media/linkedin.png)
+In the LinkedIn account, you'll see a base64 string (it's not there anymore i just html edit it to make it look like its there)
+![linkedin-img](media/linkedin.png)  
+<sub>again the above text isn't real AI is getting scarier day by day</sub>  
 
 `WdB1jUEtLf9qsaF3SsUJC2RBuNhrUteDKUJPFMApRhasKWpRRCvAMe9OYzyRu3zgJbReuL9LuErcYy5WWPN0k1rgMXUrpOBINCvEefOLHeFHNgziTXGZrMpRFATQMdeyHUIrwsz5EWrbY2F2PjDckKDyNgGoHzb2M25Vr2IIOf8=`
 
 ### 4th Stage: Decipher
-Initially decoding it will return nothing readable, but using vigenere with the key mentioned in the description `AUTHOR` and decoding it with base64 2 times, then reversing it returns a [Google doc link](https://docs.google.com/document/d/1j3P3sAMjv4-Z0NaDSpKk9e7TwLBWA96riVvyqaK4e_U/edit?usp=sharing). ([See cyberchef](https://gchq.github.io/CyberChef/#recipe=Vigen%C3%A8re_Decode('AUTHOR')From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Reverse('Character')&input=V2RCMWpVRXRMZjlxc2FGM1NzVUpDMlJCdU5oclV0ZURLVUpQRk1BcFJoYXNLV3BSUkN2QU1lOU9ZenlSdTN6Z0piUmV1TDlMdUVyY1l5NVdXUE4wazFyZ01YVXJwT0JJTkN2RWVmT0xIZUZITmd6aVRYR1pyTXBSRkFUUU1kZXlIVUlyd3N6NUVXcmJZMkYyUGpEY2tLRHlOZ0dvSHpiMk0yNVZyMklJT2Y4PQ&ieol=CRLF&oeol=NEL))
+Initially decoding it with base64 will return nothing readable, but using vigenere with the key mentioned in the description `AUTHOR` and decoding it with base64 2 times, then reversing it returns a [Google doc link](https://docs.google.com/document/d/1j3P3sAMjv4-Z0NaDSpKk9e7TwLBWA96riVvyqaK4e_U/edit?usp=sharing). ([See cyberchef](https://gchq.github.io/CyberChef/#recipe=Vigen%C3%A8re_Decode('AUTHOR')From_Base64('A-Za-z0-9%2B/%3D',true,false)From_Base64('A-Za-z0-9%2B/%3D',true,false)Reverse('Character')&input=V2RCMWpVRXRMZjlxc2FGM1NzVUpDMlJCdU5oclV0ZURLVUpQRk1BcFJoYXNLV3BSUkN2QU1lOU9ZenlSdTN6Z0piUmV1TDlMdUVyY1l5NVdXUE4wazFyZ01YVXJwT0JJTkN2RWVmT0xIZUZITmd6aVRYR1pyTXBSRkFUUU1kZXlIVUlyd3N6NUVXcmJZMkYyUGpEY2tLRHlOZ0dvSHpiMk0yNVZyMklJT2Y4PQ&ieol=CRLF&oeol=NEL))
 
 ### 5th Stage: Google doc
-Reading through the doc, we see there are many presumable reddit username (reddit username convention with underscore and 4 numbers at the end) in the doc, with the title being "ONE OF THEM IS RIGHT".
+Reading through the doc, we see there are many presumably reddit username ([Reddit's username naming convention consist an adjective, noun, number, sometimes with a dash or an underscore](https://www.reddit.com/r/OutOfTheLoop/comments/1avvkaj/what_is_up_with_so_many_reddit_usernames_being/)) in the doc, with the title being "ONE OF THEM IS RIGHT".
 
 <details>
 <summary>Click to see the distinct usernames</summary>
@@ -54,15 +56,15 @@ Patient_Diamond2361
 </details>
 
 ### 6th Stage: Reddit user
-So I tested each of them as reddit username, and [`Patient_Diamond2361`](https://www.reddit.com/user/Patient_Diamond2361/) returned a valid account. In their account, there is a [cryptic post](https://www.reddit.com/user/Patient_Diamond2361/comments/1mnm0kd/code/) about code, along a vanity url `/DNP83nftRTK/`  
-![reddit-img](media/reddit3.png)
+So I tested each of them as reddit username manually, and [`Patient_Diamond2361`](https://www.reddit.com/user/Patient_Diamond2361/) returned a valid account. In their account, there is a [cryptic post](https://www.reddit.com/user/Patient_Diamond2361/comments/1mnm0kd/code/) titled `code`, along a vanity url `/DNP83nftRTK/`  
+![reddit-img](media/reddit.png)
 
 ### 7th Stage: Instagram
 As the post said this is a code for a post, I assume it's referring to Instagram. So I went ahead to [that post](https://www.instagram.com/p/DNP83nftRTK/).  
-![instagram-img](media/instagram4.png)
+![instagram-img](media/instagram.png)
 
 ### 8th Stage: metamorphosis_manga
-At this point we were stuck, so asking the author, he send me this:
+At this point we were stuck, so asking the author, he sends me this:
 ```
 i wanted to set a point of view through this stage. 
 metamorphosis manga (about which ive heard from reddit and insta) has a very sad ending where girl kinda suicides.
@@ -80,6 +82,8 @@ depicts that manga one is something which is so disturbing you dont want to know
 ```
 
 From this, it seems the manga one is something we should know about (since they don't want us to know about it). Running sherlock on `metamorphosis_manga` reveals it has a [pastebin account](https://pastebin.com/u/metamorphosis_manga) along with 2 pastebin post.
+
+<sub>Fun Fact: He sent me this, but I didn't acknowledge the idea here due to a particular reason (which you'll know later ;)), causing me to halt at this stage for a solid 2 hours.</sub>
 ### 9th Stage: Pastebin  
 [1st post](https://pastebin.com/jkSzNxEH)
 ```
@@ -109,7 +113,7 @@ In the middle of the QR code, you can 2 letters - tg, but we cant seem to scan i
 ### 12th Stage: Telegram
 In the Telegram group, there is a message from TheOneWhoSlays:  
 ![telegram-img](media/telegram.png)  
-Due to my low attention span, I didn't read all of that, and only see keywords like YouTube, Cuco and phoenixsp7. So I search on youtube for a `Cuco phoenixsp7`, where the 1st result returned [this video](https://www.youtube.com/watch?v=Ka6boboYYXI&list=RDKa6boboYYXI&start_radio=1). 
+Due to my low attention span <sub>(which is why I didn't understand the previously mentioned idea in stage 8!) </sub>, I didn't read all of that, and only see keywords like YouTube, Cuco and phoenixsp7. So I search on youtube for a `Cuco phoenixsp7`, where the 1st result returned [this video](https://www.youtube.com/watch?v=Ka6boboYYXI&list=RDKa6boboYYXI&start_radio=1). 
 
 ### 13th Stage: YouTube
 In the video comment section, a [link to another catbox.moe file](https://files.catbox.moe/j3eiz0.png) was given. 
