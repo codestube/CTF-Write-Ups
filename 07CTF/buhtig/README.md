@@ -29,7 +29,7 @@ Click on it reveals a view sheet with morse code.
 ```-. . ...- . .-./--. --- -. -. .-/--. .. ...- ./-.-- --- ..-/..- .--. --..--/-. . ...- . .-./--. --- -. -. .-/.-.. . -/-.-- --- ..-/-.. --- .-- -.```  
 I'll leave the decoding to you guys :> Moving on...  
 
-Checking out the project detail (by click the the button in the top right), we see that there is a weird README for it.
+Checking out the project detail (by click the button in the top right), we see that there is a weird README for it.
 ![projdesc-img](media/projdesc.png)  
 This screamed ROT8000 characters (I use cyberchef way too much), so I put this to [cyberchef with ROT8000 parameter](https://gchq.github.io/CyberChef/#recipe=ROT8000()&input=57GZ57Gq57G857G857KA57G457G757GtIOexsuexvCDnsbXnsZ3nsbPnsZXnsZznsZ3nsYrnsZbnsoDnsbHnsYznsZ0&oenc=65001&ieol=CRLF&oeol=NEL), and it decoded to this:  
 `Password is lTjLSTAMwhCT`
