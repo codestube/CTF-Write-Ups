@@ -36,7 +36,8 @@ Then it clicked for me. Instead of manually removing the bird, how about I just 
 ## My Amazing Solution
 The one time I actually wanted Gemini to help me the most, is when Nano Banana is actually goated with image generation.  
 ![aichat-img](media/convo.png)
-![gemini-img](media/Gemini_Generated_Image.png) * thanos snapped *  
+![gemini-img](media/Gemini_Generated_Image.png)  
+* thanos snapped *  
 and then we do our good ol' RIS technique:  
 ![result](media/result.png)  
 The first result is exactly what we want! Now just slowly navigate to the shop, and where the dock is. After some careful navgiation you should find [this](https://maps.app.goo.gl/9K5dzQnz8Z7LRiGm8)!  
@@ -48,7 +49,7 @@ Flag: `firebird{35.670,135.277}`
 Overall, this was a simple challenge, but the way I solved it actually amazed both myself and some other contestants as well (post-vc). I never thought that I would somehow have the bright idea of using Gemini to manip an image just for an OSINT chall, and I thought the solve was pretty funny so I decided to write this. Anyway huge shoutout to Firebird for org-ing this event, had a fun time! (Please invite flagaholic next year :pray:)
 ## Shoutout:
 - Firebird (Organizer)
-- Gemini Nano Banana (snap the bird)
+- Gemini Nano Banana (snapped the bird)
 - Myself (with that brilliant idea)
 
 <br>
