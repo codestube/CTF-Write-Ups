@@ -26,13 +26,13 @@ We were first given an image to inspect.
 From this image, we can gather a few information that could lead us to finding the target's social media account. Here are the highlighted area for better understanding:
 ![detail-img](media/details.png)
 
-${\textsf{\color{yellow}YELLOW}}$: From the `🔁Reposted by` wordings, we can tell this is either X (formerly known as Twitter) or Bluesky. Judging by the UI color not being entirely black and some sort of UI element that uses a much deeper blue above the `🔁Reposted by`, it is definitively Bluesky.
+${\textsf{\color{#ffff00}YELLOW}}$: From the `🔁Reposted by` wordings, we can tell this is either X (formerly known as Twitter) or Bluesky. Judging by the UI color not being entirely black and some sort of UI element that uses a much deeper blue above the `🔁Reposted by`, it is definitively Bluesky.
 
-${\textsf{\color{red}RED}}$: With the aforementioned clue concluding that this is Bluesky, the word `GIFS GALOR..` is most definitely their display name.
+${\textsf{\color{#ff0000}RED}}$: With the aforementioned clue concluding that this is Bluesky, the word `GIFS GALOR..` is most definitely their display name.
 
-${\textsf{\color{lime}GREEN}}$: The captions of this post made by the account: `NATURE/SEASCAPE.GIF`
+${\textsf{\color{#00ff00}GREEN}}$: The captions of this post made by the account: `NATURE/SEASCAPE.GIF`
 
-${\textsf{\color{pink}In addition}}$, we can see a sneak-peek of a profile picture that doesn't match the above account whom is being reposted from, and there is no repost symbols (nor a div) above it. This means that this icon is the account's profile picture.
+${\textsf{\color{pink}In addition}}$, we can see a sneak-peek of a profile picture that doesn't match the above account whom is being reposted from, and there is no repost symbols (nor a div) above it. This means that this icon is the target account's profile picture.
 
 With the above clues layed out fully, we can start looking for the target's social media account.  
 > [!NOTE]  
