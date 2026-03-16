@@ -71,8 +71,8 @@ I wrote this as detailed as possible in hopes of beginners who stumble upon this
 - NuttyShell (Organizer)
 - Internet (for not dying)  
 <!-- [Next episode~]("../nutty_hater_1/README.md") -->
-<p align="right">
-  <a href="../nutty_hater_1/README.md"><strong>Next writeup~</strong></a>
+<p align="right" style="font-size: 1.5em; font-weight: bold">
+  <a href="../nutty_hater_1/README.md"><strong>Next Writeup~</strong></a>
 </p>
 <br>
 <sub>
