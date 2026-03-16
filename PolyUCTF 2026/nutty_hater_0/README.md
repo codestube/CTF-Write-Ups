@@ -42,12 +42,12 @@ With the above clues layed out fully, we can start looking for the target's soci
 
 I started by going to [Bluesky](https://bsky.app/), and looking up someone named `GIFS GALOR` in the search bar;  
 ![prof-search-img](media/prof-search.png)  
-This profile icon matches the one from the challenge, meaning this is the right profile. Now we have to find the post with the caption `NATURE/SEASCAPE.GIF`. Using [search filtering on Bluesky](https://bsky.social/about/blog/05-31-2024-search), we can filter post by this account and look for a post with that caption.  
+This profile icon matches the one from the challenge, meaning this is the [right profile](https://bsky.app/profile/gifs-bot.bsky.social). Now we have to find the post with the caption `NATURE/SEASCAPE.GIF`. Using [search filtering on Bluesky](https://bsky.social/about/blog/05-31-2024-search), we can filter post by this account and look for a post with that caption.  
 ![post-search](media/post-search.png)  
 <sub> A little fun fact: At the time, I actually just scrolled the entire profile and `CTRL + F` the caption instead of using this method. Minor time loss for me but still got to blood it :trollface:</sub>  
 
 There seems to be a few repeating posts with the same image made by this account. Without much info to go off of, we will have to manually check each post's reposters and see if there's one account that has the same profile picture that we saw on the challenge image.  
-We can click on the first post and check who has reposted the post:  
+We can click on the [first post](https://bsky.app/profile/gifs-bot.bsky.social/post/3mfgvztdc3f26) and check who has [reposted](https://bsky.app/profile/gifs-bot.bsky.social/post/3mfgvztdc3f26/reposted-by) the post:  
 ![click-me-waga](media/click.png)  
 > [!WARNING]  
 > TW: There are profiles that displays NSFW materials or bios. Please check at your own risk. Readers discretion is advised.  
@@ -69,7 +69,7 @@ I wrote this as detailed as possible in hopes of beginners who stumble upon this
 
 - Ryan (Author)
 - NuttyShell (Organizer)
-- Internet (for not dying)
+- Internet (for not dying)  
 <a style='float: right; font-size:1.3em; font-weight:bold;' href="../nutty_hater_1/README.md">Next episode~</a>
 
 <br>
