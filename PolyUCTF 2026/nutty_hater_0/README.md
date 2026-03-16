@@ -70,11 +70,10 @@ I wrote this as detailed as possible in hopes of beginners who stumble upon this
 - Ryan (Author)
 - NuttyShell (Organizer)
 - Internet (for not dying)  
-<!-- [Next episode~]("../nutty_hater_1/README.md") -->
+
 <h2 align="right">
-  <a href="../nutty_hater_1/README.md"><strong>Next Writeup~</strong></a>
+  <a href="../nutty_hater_1/README.md">Next Writeup~</a>
 </h2>
-<br>
 <sub>
  Tags: OSINT, PolyUCTF, 2026, Bluesky, repost, NuttyShell, First Blood
 </sub>
