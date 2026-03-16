@@ -1,31 +1,40 @@
 # Insider 1-4
-Difficulty: ★★★★★☆☆☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
+
+Difficulty: ★★★★★☆☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
 ![chall-img](media/chall.png)  
 
-## Details:
-- Author: 
+## Details
+
+- Author:
 - Category: OSINT
-- Score acquired: 
+- Score acquired:
 
-## Description:
+## Description
+
 > WIP
-
+>
 >
 
->
+## Write up
 
-## Write up:
 WIP
-## My understanding:
+
+## My understanding
+
 WIP
-## My Solution:
+
+## My Solution
+
 WIP
-## Conclusion:
+
+## Conclusion
+
 WIP
-## Shoutout:
+
+## Shoutout
+
 - WIP
 
-<br>
 <sub>
-	Tags: WIP
+    Tags: WIP
 </sub>
