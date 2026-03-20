@@ -1,32 +1,41 @@
-# My Creativity
-Difficulty: ★★★★★★★☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
+# nutty_hater_3
+
+Difficulty: ★★★★☆☆☆☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: youstube_  
 ![chall-img](media/chall.png)  
+![blood-img](media/blood.png)
 
-## Details:
-- Author: Atopos
-- Category: Reverse
-- Score acquired: 487 (11 Solves)
+## Details
 
-## Description:
-> Minecraft is fun, but I can't write any Java code...  
-> Wait, someone told me that I could write datapacks?  
-> **If you think you find a flag string, please wrap it in `firebird{}`.**  
+- Author: Ryan
+- Category: OSINT
+- Score acquired: 421 (43 Solves)
 
-> NOTE: This is a datapack built for Minecraft 1.20.4. Solving this challenge doesn't require buying Minecraft, or even installing the game at all, though having access to it could make the process more enjoyable.
-> - [chal.zip](<files/chal.zip>)
+## Description
+> It seems that the "Hater" has created an organization on a platform and started selling his digital products. Stop Him NOW!!!!
+>
+> Flag Format: `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
 
-## Write up:
+## Write up
+
 WIP
-## My understanding:
+
+## My understanding
+
 WIP
-## My Solution:
+
+## My Solution
+
 WIP
-## Conclusion:
+
+## Conclusion
+
 WIP
-## Shoutout:
+
+## Shoutout
+
 - WIP
 
 <br>
 <sub>
-	Tags: WIP
+ Tags: WIP
 </sub>

@@ -1,32 +1,50 @@
-# My Creativity
-Difficulty: ★★★★★★★☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
+# nutty_hater_4
+
+Difficulty: ★★★★★★★☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Didn't solve
 ![chall-img](media/chall.png)  
 
-## Details:
-- Author: Atopos
-- Category: Reverse
-- Score acquired: 487 (11 Solves)
+## Details
 
-## Description:
-> Minecraft is fun, but I can't write any Java code...  
-> Wait, someone told me that I could write datapacks?  
-> **If you think you find a flag string, please wrap it in `firebird{}`.**  
+- Author: Ryan
+- Category: OSINT
+- Score: 500 (3 Solves)
 
-> NOTE: This is a datapack built for Minecraft 1.20.4. Solving this challenge doesn't require buying Minecraft, or even installing the game at all, though having access to it could make the process more enjoyable.
-> - [chal.zip](<files/chal.zip>)
+## Description
 
-## Write up:
+> Apparently, the "Hater" has set up a date to gather all the haters together, and they are planning to do something big.  
+> However, the NuttyShell Intelligence Agency has decided that it is not necessary to stop the "Hater" from doing his thing, because love is more powerful than hate.  
+> Please find out the last game the "Hater" played on his phone.  
+> Remember to replace all space characters with underscore characters (_) and capitalize each word.  
+> If the name of the game is "Nutty shell ultimate edition", the flag would be "PUCTF26{Nutty_Shell_Ultimate_Edition}".
+>
+> Flag Format: `PUCTF26{[a-zA-Z0-9_]{1,50}}`  
+
+<details>
+  <summary>View hint:</summary>
+  The name of the game account in nutty_hater_4 is changed to reflect the email.
+</details>
+
+## Write up
+
 WIP
-## My understanding:
+
+## My understanding
+
 WIP
-## My Solution:
+
+## My Solution
+
 WIP
-## Conclusion:
+
+## Conclusion
+
 WIP
-## Shoutout:
+
+## Shoutout
+
 - WIP
 
 <br>
 <sub>
-	Tags: WIP
+ Tags: WIP
 </sub>

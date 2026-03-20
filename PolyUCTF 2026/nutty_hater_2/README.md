@@ -1,32 +1,43 @@
-# My Creativity
-Difficulty: ★★★★★★★☆☆☆	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: codestube (youstube_)  
-![chall-img](media/chall.png)  
+# nutty_hater_2
 
-## Details:
-- Author: Atopos
-- Category: Reverse
-- Score acquired: 487 (11 Solves)
+Difficulty: ★★★★★★★★☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by: youstube_, akitenten  
+![chall-img](media/chall.png)
+![blood-img](media/blood.png)
 
-## Description:
-> Minecraft is fun, but I can't write any Java code...  
-> Wait, someone told me that I could write datapacks?  
-> **If you think you find a flag string, please wrap it in `firebird{}`.**  
+## Details
 
-> NOTE: This is a datapack built for Minecraft 1.20.4. Solving this challenge doesn't require buying Minecraft, or even installing the game at all, though having access to it could make the process more enjoyable.
-> - [chal.zip](<files/chal.zip>)
+- Author: Ryan
+- Category: OSINT
+- Score acquired: 463 (30 Solves)
 
-## Write up:
+## Description
+
+> NuttyShell Intelligence Agency found out that the "Hater" was stealing pictures from one of the NuttyShell members and lied about paying for first class. Find out the exact location of the picture taken by the original photographer.
+>
+> Flag Format: `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
+<sub>why does this have flag format?</sub>
+
+## Write up
+
 WIP
-## My understanding:
+
+## My understanding
+
 WIP
-## My Solution:
+
+## My Solution
+
 WIP
-## Conclusion:
+
+## Conclusion
+
 WIP
-## Shoutout:
+
+## Shoutout
+
 - WIP
 
 <br>
 <sub>
-	Tags: WIP
+ Tags: WIP
 </sub>
