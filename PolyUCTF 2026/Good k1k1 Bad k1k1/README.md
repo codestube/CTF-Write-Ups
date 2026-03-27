@@ -677,7 +677,9 @@ Till now (3 weeks after the competition), I still have 0 clue what the instructi
 </sub>
 
 <style>
-  code {
-    white-space : pre-wrap !important;
+  pre {
+    white-space: pre-wrap !important;
+    overflow-wrap: break-word;
+    font-variant-ligatures: none;
   }
 </style>
