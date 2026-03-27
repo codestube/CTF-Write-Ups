@@ -17,9 +17,13 @@ Difficulty: ★★★★★★★★☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
 > Flag Format: `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
 <sub>why does this have flag format?</sub>
 
+## Prelude
+
+This is one of the harder challenge in the series, where I went down a LOT of rabbit holes trying to solve it. Luckily our non-CTF / OSINT player, akitenten, solved the mystery all by herself! So this write-up is dedicated to her! Thanks for solving this with me :fire:
+
 ## Write up
 
-WIP
+We were given a discription about the hater (nuttychud)
 
 ## My understanding
 
