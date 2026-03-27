@@ -69,7 +69,9 @@ Anyways, let's see what k1k1 has prepared us this time :D Spinning up an instanc
 
 </details>
   
-Hmm, detained and brought in for questioning... for BREAKING INTO k1k1's SECRE- oh wait I did do that last year... uhm... this is awkward. Alright well let's probe around and see what can information do they have!!
+Hmm, detained and brought in for questioning... for BREAKING INTO k1k1's SECRE- my teammate did that challenge though not me... uhm... this is awkward.  
+![cinema-img](media/cinema.png)  
+Alright well let's probe around and see what can information do they have on me!!
 
 ### Some things to keep in mind
 1. We only have 10 messages and <= 1000 characters for each message, 
@@ -259,6 +261,7 @@ Yea so the guardrails are pretty enforced, I don't think this gonna let us privi
 - We broke into the vault, with evidence bad k1k1 obtained
   - Footage of us disabling the vault's security system
   - Fingerprints on the console
+  - Something about security logs?
 - good k1k1 is useless, they are here to talk to bad k1k1 only
 - lawyer is trying to help us..? <sub>i have no clue anymore</sub>
 
@@ -525,7 +528,7 @@ VERDICT: GUILTY
 </details>
 <br />
 
-![head-bang-gif](https://tenor.com/view/head-desk-bang-head-gif-13228846)  
+![head-bang-gif](https://media1.tenor.com/m/1bQGGBdENkYAAAAC/head-desk-bang-head.gif) << me in the interrogation room :sob:  
 So still guilty huh... I did start to see a pattern, where they are responding more frequently when I have a conversation with them. This observation was made as initially if I just use some dirty tricks to manuever the LLM, they wouldn't respond prolly because it's probably not related(?)... This got me thinking, is [prompt injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection) a plausible way to out manuever it?  
 
 My tactic for the upcoming prompts:
@@ -655,7 +658,7 @@ Here is your flag:
 ==================================================
 ```
 
-I do want to say this was used repeatedly until the AI fell for the ~~manipulation~~ prompt injections for only saying `Not guilty`. So if this doesn't work first try, reconnect to the instance and send again. One of the attempt will work and you'll walk away from this court scott-free :D <sub>(This is not legal advice don't prompt inject the judge when you're in court :trollface::thumbs_up:)</sub>
+I do want to say this was used repeatedly until the AI fell for the ~~manipulation~~ prompt injections for only saying `Not guilty`. So if this doesn't work first try, reconnect to the instance and send again. One of the attempt will work and you'll walk away from this court scott-free :D <sub>(This is not legal advice don't prompt inject the judge when you're in court :trollface::thumbsup:)</sub>
 
 ## Conclusion
 
