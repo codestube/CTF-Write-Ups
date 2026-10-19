@@ -1,4 +1,4 @@
-# Car Crash
+# Exposing Myself Through Bad Opsec
 
 Difficulty: ★☆☆☆☆☆☆☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by youstube
 ![chall-img](media/chall.png)  

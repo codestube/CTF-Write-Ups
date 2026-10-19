@@ -11,12 +11,12 @@ I hope I won't take too long writing all these :skull: Anyways enjoy!!
   
 |   Challenges   |                    Write-up                   |
 | -------------- | :-------------------------------------------: |
-| Chatty Cathy | **[Click here](chatty cathy/README.md)**  |
-| Exposing Myself Through Bad OPSEC | **[Click here](Exposing Myself Through Bad OPSEC/README.md)**  |
-| Car Crash | **[Click here](Car Crash/README.md)**  |
-| File Dump 2 | **[Click here](File Dump 2/README.md)**  |
-| The Vibes Are Freaking Me Out | **[Click here](The Vibes Are Freaking Me Out/README.md)**  |
-| Alice and Bob Would Like a Word | **[Click here](Alice and Bob Would Like a Word/README.md)**  |
+| Chatty Cathy | **[Click here](chatty%20cathy/README.md)**  |
+| Exposing Myself Through Bad OPSEC | **[Click here](Exposing%20Myself%20Through%20Bad%20OPSEC/README.md)**  |
+| Car Crash | **[Click here](Car%20Crash/README.md)**  |
+| File Dump 2 | **[Click here](File%20Dump%202/README.md)**  |
+| The Vibes Are Freaking Me Out | **[Click here](The%20Vibes%20Are%20Freaking%20Me%20Out/README.md)**  |
+| Alice and Bob Would Like a Word | **[Click here](Alice%20and%20Bob%20Would%20Like%20a%20Word/README.md)**  |
 | Death | **[Click here](Death/README.md)**  |
-| You Wouldn't Git It | **[Click here](You Wouldn't Git It/README.md)**  |
-| Ghost of Squares Past | **[Click here](Ghost of Squares Past/README.md)**  |
+| You Wouldn't Git It | **[Click here](You%20Wouldn't%20Git%20It/README.md)**  |
+| Ghost of Squares Past | **[Click here](Ghost%20of%20Squares%20Past/README.md)**  |

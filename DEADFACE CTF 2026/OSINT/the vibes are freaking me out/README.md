@@ -1,4 +1,4 @@
-# The vibes are freaking me out
+# The Vibes Are Freaking Me Out
 
 Difficulty: ★★★★☆☆☆☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by youstube
 ![chall-img](media/chall.png)  

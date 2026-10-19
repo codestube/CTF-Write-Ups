@@ -1,4 +1,4 @@
-# Car Crash
+# Death
 
 Difficulty: ★★★★★☆☆☆☆☆ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Solved by youstube
 ![chall-img](media/chall.png)  
