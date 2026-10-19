@@ -5,7 +5,7 @@ Overall Difficulty: ★★★★★☆☆☆☆☆  &emsp;&emsp;&emsp;&emsp;&ems
 ## challenge according to points
 
 ![osint-cat](challs.png)
-This is my first CTF played with AFNOM, the CTF team in UoB. So I figured it deserved a bit of a writeup :P  
+This is my first CTF played with [AFNOM](https://afnom.net/), the CTF team in UoB. So I figured it deserved a bit of a writeup :P  
 I solved basically the entire OSINT category, with one having a teammate to submit for me :trollface:  
 I hope I won't take too long writing all these :skull: Anyways enjoy!!
   
